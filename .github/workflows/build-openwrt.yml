@@ -38,6 +38,11 @@ jobs:
     runs-on: ubuntu-20.04
 
     steps:
+    - name: My first step
+      uses: actions/heroku@main
+    - name: My second step
+      uses: actions/aws@v2.0.1
+   
     - name: Checkout
       uses: actions/checkout@main
 
